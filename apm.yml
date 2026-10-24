@@ -1,0 +1,15 @@
+name: tstamps
+version: 1.0.0
+description: Agent skill for logging and reading time in a Tstamps workspace.
+author: Havspect
+license: AGPL-3.0-only
+repository: https://github.com/havspect/tstamps-skills
+homepage: https://github.com/havspect/tstamps-skills
+keywords:
+  - time-tracking
+  - timesheet
+  - tstamps
+  - mcp
+  - agent-skill
+includes: auto
+dependencies: {}
