@@ -21,14 +21,11 @@ The MCP server uses the same config file as the CLI
 (`~/.config/tstamps/config.json`, mode `0600`). Environment variables
 `TSTAMPS_URL` and `TSTAMPS_TOKEN` override it.
 
-## Clients
+## Documentation
 
-| Client | Guide | Surface |
-| --- | --- | --- |
-| Claude Code, Claude desktop app | [docs/claude.md](docs/claude.md) | CLI, desktop chat app, claude.ai limits |
-| Codex CLI, Codex app and IDE | [docs/codex.md](docs/codex.md) | CLI, ChatGPT desktop app, IDE extension |
-| Langdock | [docs/langdock.md](docs/langdock.md) | Remote MCP only, via a bridge |
-| OpenCode | [docs/opencode.md](docs/opencode.md) | OpenCode 2.x CLI and TUI |
+Setup for every client — Claude Code and the desktop app, Codex, Langdock and
+OpenCode — lives in the Tstamps manual:
+[Agents](https://github.com/havspect/tstamps/blob/main/docs/guide/agents/index.md).
 
 ## Install
 
@@ -41,7 +38,7 @@ gh skill install havspect/tstamps-skills tstamps --agent <agent> --scope user
 `<agent>` is `claude-code`, `codex`, `opencode` or `amp`. Amp reads the skill's
 sibling `mcp.json` and loads the Tstamps tools with the skill. APM and
 `gh skill install` copy that file too, but the other clients ignore it, so
-configure the MCP server separately as each page shows.
+configure the MCP server separately as the manual's agent pages show.
 
 ## What the skill does
 
