@@ -34,7 +34,7 @@ The MCP server uses the same config file as the CLI
 
 ```sh
 amp skill add havspect/tstamps-skills/skills/tstamps --global
-apm install havspect/tstamps-skills
+apm install havspect/tstamps-skills#v1.0.0
 gh skill install havspect/tstamps-skills tstamps --agent <agent> --scope user
 ```
 
